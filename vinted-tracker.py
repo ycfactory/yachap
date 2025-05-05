@@ -4,7 +4,7 @@ import time
 import json
 
 # Configuration
-VINTED_URL = "https://www.vinted.fr/catalog?search_text=ralph%20lauren"
+VINTED_URL = "https://www.vinted.fr/api/v2/catalog/items?brand_id=88&order=newest_first&per_page=5&time="
 DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1368651642194624532/o30jr76nxEUXg-eZPzWpZbGWAppehLI9VQhBNoMvaoBJyaRXtXJ4dWbq5dkjBqoMkA8K"
 LAST_ITEMS_FILE = "last_items.json"  # Fichier pour éviter les doublons
 
